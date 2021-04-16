@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NMGS Decides</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+</head>
+
+<body>
+  <!-- top navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="indexNav">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">NMGS Decides</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+        aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Gallary</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <!-- image card -->
+  <div class="card bg-dark text-white">
+    <img src="./img/vote-letters.jpg" class="card-img" alt="...">
+    <div class="card-img-overlay" id="imgTxt">
+      <h1 class="card-title" id="imgTxtHead">Welcome to Voter App</h5>
+        <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+        <div id="imgTxtBtns">
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log
+            In</button>
+          <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">Sign
+            Up</button>
+        </div>
+    </div>
+  </div>
+
+  <!-- log in modal -->
+  <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Log In</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- input -->
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Matric number" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <!-- <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button> -->
+          </div>
+          <div class="modal-footer">
+            <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log In</button> -->
+            <button type="submit" class="btn btn-primary" id="loginCont">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- sign up modal -->
+  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Sign Up</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <!-- input -->
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Matric number" aria-label="Recipient's username"
+              aria-describedby="button-addon2">
+            <!-- <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button> -->
+          </div>
+        </div>
+        <div class="modal-footer">
+          <!-- <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Log In</button> -->
+          <button type="submit" class="btn btn-success">Continue</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- the main body -->
+  <div class="card">
+    <div class="card-body">
+      <h2>Vision</h2>
+      <article>To awaken young minds to innovative thinking who can be frontiers in various life field such as technology, education, leadership etc. Which in turn will foster community development and growth of the nation.</article>
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-body">
+      <h2>Mission</h2>
+      <article>To create a conducive environment for idea generation, idea conceptualization and innovation
+
+        To stimulate creativity in young minds by informative drive and enlightenment
+        
+        To Create a global community of innovators
+        
+        Our drive: 
+        Your country is as good as the quantity and quality of ideas that were hatched in it
+        We can only grow when we sow the seed of ideas inherent in u into the soil of life and this is only possible where there is huge investment in knowledge (Education) to burst open that haven of ideas</article>
+    </div>
+  </div>
+
+  <!-- powered by -->
+  <div class="card">
+    <div class="card-body">
+      <h6 class="card-title">Powered by</h6>
+    </div>
+    <img src="./img/awakeafrica.jpg" class="card-img-bottom" alt="...">
+  </div>
+
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+<script src="./js/script.js"></script>
+
+</html>
